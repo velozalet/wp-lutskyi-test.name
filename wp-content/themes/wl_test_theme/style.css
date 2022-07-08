@@ -1,0 +1,71 @@
+/*
+Theme Name: WL Test Theme
+Author: 
+Description: This is a test Theme for a technical task
+Requires PHP: 7+
+*/
+/*Primary Menu*/
+nav.navbar a.custom-logo-link > img {
+  width: 80px;
+  height: auto;
+}
+nav.navbar ul.navbar-nav li > a {
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+nav.navbar ul.navbar-nav li.menu-item.current-menu-item a {
+  color: #ffc107;
+}
+
+/*Footer Menu*/
+footer ul.navbar-nav li.menu-item > a {
+  color: #6c757d;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+footer ul.navbar-nav li.menu-item.current-menu-item > a {
+  color: #ffc107;
+}
+
+/*Car Page*/
+.page-template-cars .card > img {
+  height: 225px;
+}
+
+/*Car Page-Single*/
+.single-car .car--info {
+  outline: 1px solid lightgray;
+  padding: 10px;
+}
+.single-car .car--info .car--info-item {
+  font-weight: bold;
+  font-style: italic;
+}
+.single-car .car--info .car--info-item--color > span {
+  width: 80px;
+  height: 30px;
+  display: inline-block;
+}
+.single-car .car--info .car--info-item > span {
+  margin-left: 6px;
+  display: inline-block;
+  font-weight: normal;
+  font-style: normal;
+}
+.single-car .category-car-info ul > li{ list-style-position: inside; }
+
+
+/*404 Page*/
+.error404 section._404 {
+  height: 50vh;
+}
+.error404 section._404 h1 a {
+  text-decoration: none;
+  color: #6c757d;
+}
+.error404 section._404 h1 a:hover {
+  color: #ffc107;
+}
