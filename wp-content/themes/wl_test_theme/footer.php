@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-4 col-12">
                 <h3 class="text-warning fst-italic">Header in footer block</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laborum+.</p>
                 </div> <!--.col-* -->
                 <div class="col-lg-4 col-md-6 col-12">
                 <h3 class="text-warning fst-italic">Contacts</h3>
