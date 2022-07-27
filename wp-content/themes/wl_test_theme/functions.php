@@ -10,6 +10,7 @@ function theme_add_styles_and_scripts() {
     //Scripts:
     wp_enqueue_script('popper_js', 'https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js', array(), '1.0', true);
     wp_enqueue_script('bootstrap5_js', get_template_directory_uri() .'/assets/bootstrap-5.1.3-dist/js/bootstrap.min.js', array(), '1.0', true);
+    wp_enqueue_script('main_js',get_template_directory_uri() . '/assets/js/main.js', array('jquery'), '1.0', true );
 }
 
 //Register Menus Theme
