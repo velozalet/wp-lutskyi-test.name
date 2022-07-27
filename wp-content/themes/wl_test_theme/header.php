@@ -41,8 +41,7 @@
                 ];
                 wp_nav_menu($args);
                 ?>
+                <p style="color:white;"><?=get_theme_mod('telephone','no telephone number');?></p>
             </div>
-            <p style="color:white;"><?=get_theme_mod('telephone','no telephone number');?></p>
-            
         </div>
     </nav>
